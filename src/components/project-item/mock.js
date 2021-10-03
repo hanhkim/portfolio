@@ -14,9 +14,9 @@ export const projects = [
   },
   {
     id: 2,
-    name: 'KKB',
+    name: 'KBB',
     imgUrl: kbbImg,
-    description: 'Kelley Blue Book is a automotive website.',
+    description: 'KBB is a automotive website.',
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ export const projects = [
   },
   {
     id: 5,
-    name: 'Porfolio',
+    name: 'Portfolio',
     imgUrl: shayImg,
     description:
       'Porfolio is my personal project where I can manage all things I build for my own. It is funny and freedom',
