@@ -1,0 +1,22 @@
+
+.service-list {
+    display: flex;
+    gap: 50px;
+}
+
+.service-list__item-heading {
+    margin-bottom: 16px;
+}
+
+@media screen  and (max-width: 768px){
+    .service-list {
+        flex-wrap: wrap;
+    }
+    
+    .service-list__item {
+        flex: 100%;
+    }
+}
+
+
+
