@@ -1,17 +1,31 @@
-import './App.css';
-import Home from './pages/home';
+import React, { useState, useEffect, useContext } from 'react';
+
+import Home, { Mouse } from './pages/home';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
+import { ThemeContext } from './ThemeContext';
+import * as classnames from 'classnames';
+import './App.css';
 
 const App = () => {
+  const {
+    state: { darkMode },
+  } = useContext(ThemeContext);
+
   return (
-    <>
+    <div
+      className={classnames({
+        'main-application': true,
+        'light-theme': !darkMode,
+      })}
+    >
       <Header />
       <main>
+        {/* <Mouse render={({ x, y }) => <Home mousePosition={{ x: x, y: y }} />} /> */}
         <Home />
       </main>
       <Footer />
-    </>
+    </div>
   );
 };
 

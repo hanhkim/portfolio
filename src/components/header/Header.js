@@ -1,6 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import { HamburgerMenu } from '../icons/Icons';
 import * as classnames from 'classnames';
+
+import DarkModeBtn from '../buttons/DarkModeBtn';
+
 import './Header.css';
 
 const Header = () => {
@@ -21,6 +24,9 @@ const Header = () => {
             'nav-menu-active': showMenu,
           })}
         >
+          <li>
+            <DarkModeBtn />
+          </li>
           <li className='nav-item'>
             <a href='#main'>Home</a>
           </li>
@@ -32,6 +38,9 @@ const Header = () => {
           </li>
           <li className='nav-item'>
             <a href='#contact'>Contact</a>
+          </li>
+          <li className='nav-item'>
+            <a href='/new'>New Page</a>
           </li>
         </ul>
         <button

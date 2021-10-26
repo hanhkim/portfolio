@@ -1,3 +1,5 @@
-import Home from './Home';
+import Home, { Mouse } from './Home';
+
+export { Mouse };
 
 export default Home;
