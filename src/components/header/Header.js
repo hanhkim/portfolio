@@ -1,5 +1,4 @@
-import React, { useState, useEffect, useContext } from 'react';
-import { HamburgerMenu } from '../icons/Icons';
+import React, { useState } from 'react';
 import * as classnames from 'classnames';
 
 import DarkModeBtn from '../buttons/DarkModeBtn';
@@ -38,9 +37,6 @@ const Header = () => {
           </li>
           <li className='nav-item'>
             <a href='#contact'>Contact</a>
-          </li>
-          <li className='nav-item'>
-            <a href='/new'>New Page</a>
           </li>
         </ul>
         <button
