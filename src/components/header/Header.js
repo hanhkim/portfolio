@@ -12,11 +12,8 @@ const Header = () => {
   };
 
   return (
-    <header className='header'>
-      <nav className='navbar'>
-        <a href='#' className='nav-logo'>
-          Shay
-        </a>
+    <header className="header">
+      <nav className="navbar">
         <ul
           className={classnames({
             'nav-menu': true,
@@ -26,17 +23,17 @@ const Header = () => {
           <li>
             <DarkModeBtn />
           </li>
-          <li className='nav-item'>
-            <a href='#main'>Home</a>
+          <li className="nav-item">
+            <a href="#main">Home</a>
           </li>
-          <li className='nav-item'>
-            <a href='#about'>About</a>
+          <li className="nav-item">
+            <a href="#about">About</a>
           </li>
-          <li className='nav-item'>
-            <a href='#projects'>Projects</a>
+          <li className="nav-item">
+            <a href="#projects">Projects</a>
           </li>
-          <li className='nav-item'>
-            <a href='#contact'>Contact</a>
+          <li className="nav-item">
+            <a href="#contact">Contact</a>
           </li>
         </ul>
         <button
@@ -46,9 +43,9 @@ const Header = () => {
           })}
           onClick={onClickMenu}
         >
-          <span class='bar'></span>
-          <span class='bar'></span>
-          <span class='bar'></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
         </button>
       </nav>
     </header>

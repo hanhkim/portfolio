@@ -1,6 +1,10 @@
+.home {
+  scroll-behavior: smooth;
+}
+
 .home-title {
-    font-size: 60px;
-    text-transform: uppercase;
-    margin-top: 6px;
-    margin-bottom: 16px;
+  font-size: 60px;
+  text-transform: uppercase;
+  margin-top: 6px;
+  margin-bottom: 16px;
 }

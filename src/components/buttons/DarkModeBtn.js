@@ -1,8 +1,9 @@
 import React, { useContext } from 'react';
 import { ThemeContext } from '../../ThemeContext';
-import * as classnames from 'classnames';
+import darkModeImg from '../../assets/darkMode.png';
+import lightModeImg from '../../assets/lightMode.png';
 
-import './DarkModeBtn.scss';
+import './DarkModeBtn.css';
 
 const DarkModeBtn = () => {
   const {
@@ -16,18 +17,14 @@ const DarkModeBtn = () => {
   };
 
   return (
-    <div className='dark-mode'>
-      <label htmlFor='switch'>
-        <div
-          className={classnames({ toggle: true, 'toggle-right': darkMode })}
-        ></div>
-        <div className='names'>
-          <p className={classnames({ light: !darkMode })}>Light</p>
-          <p className={classnames({ dark: darkMode })}>Dark</p>
-        </div>
-      </label>
-      <input type='checkbox' id='switch' onChange={onChangeMode} />
-    </div>
+    <img
+      width="30"
+      height="30"
+      src={darkMode ? lightModeImg : darkModeImg}
+      alt="theme"
+      onClick={onChangeMode}
+      className="dark-mode-btn"
+    />
   );
 };
 

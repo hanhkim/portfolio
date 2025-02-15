@@ -10,7 +10,7 @@ import './Home.css';
 const Home = ({ mousePosition }) => {
   // console.log(mousePosition);
   return (
-    <div>
+    <div className="home">
       <Main />
       <About />
       <Services />
@@ -33,10 +33,7 @@ export const Mouse = (props) => {
   };
 
   return (
-    <div
-      style={{ height: '100%', position: 'relative' }}
-      onMouseMove={handleMouseMove}
-    >
+    <div style={{ height: '100%', position: 'relative' }} onMouseMove={handleMouseMove}>
       {props.render(state)}
     </div>
   );

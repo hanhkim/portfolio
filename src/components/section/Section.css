@@ -1,26 +1,24 @@
 .section {
-    margin-bottom: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    min-height: 50px;
-    width: 1300px;
-    height: auto;
-    padding-top: 100px;
+  margin-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  min-height: 50px;
+  width: 1300px;
+  height: auto;
+  padding-top: 100px;
 }
 
 @media screen and (max-width: 1300px) and (min-width: 769px) {
-    .section {
-        width: 92%;
-    }
+  .section {
+    width: 92%;
+  }
 }
-
 
 @media screen and (max-width: 768px) {
-    .section {
-        width: 92%;
-        padding-top: 50px;
-        margin-bottom: 100px;
-    }
+  .section {
+    width: 90%;
+    /* padding-top: 50px; */
+    /* margin-bottom: 100px; */
+  }
 }
-

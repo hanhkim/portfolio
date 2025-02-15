@@ -1,23 +1,24 @@
-.contact  {
-    height: auto;
-    background-color: #1E1E1E;
-    border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    height: 250px;
-    padding: 50px;
+.contact {
+  height: auto;
+  background-color: var(--contact-bg);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 250px;
+  padding: 50px;
+  border: 2px solid #cecece;
 }
 
 .contact .contact-title {
-    text-transform: initial;
-    font-size: 40px;
+  text-transform: initial;
+  font-size: 40px;
 }
 
 .contact-btn {
-    border: none;
-    padding: 20px 40px;
-    border-radius: 10px;
-    font-size: 20px;
-    background-color: #BCB4B4;
+  border: none;
+  padding: 20px 40px;
+  border-radius: 10px;
+  /* font-size: 20px; */
+  background-color: #bcb4b4;
 }

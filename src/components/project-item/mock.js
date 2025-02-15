@@ -3,14 +3,29 @@ import kbbImg from '../../assets/kbb.png';
 import shayImg from '../../assets/shay.png';
 import codeImg from '../../assets/code.jpg';
 import iresImg from '../../assets/ires.png';
+import careImg from '../../assets/care.png';
+import momoImg from '../../assets/momo.png';
 
 export const projects = [
   {
     id: 1,
     name: 'Rivir',
     imgUrl: rivirImg,
+    description: 'Rivir is the GDSN data pool system that members can use data effectively.',
+  },
+  {
+    id: 6,
+    name: 'Momo M4B',
+    imgUrl: momoImg,
     description:
-      'Rivir is the GDSN data pool system that members can use data effectively.',
+      'M4B  is a tool that merchant can manage their business such as Store, Official Account, Contract, specially Transaction.',
+  },
+  {
+    id: 7,
+    name: 'Care',
+    imgUrl: careImg,
+    description:
+      'Care Platform is a ecosytem to manage all activities such as products, add-ons, membership plans, wellness',
   },
   {
     id: 2,
@@ -30,12 +45,5 @@ export const projects = [
     imgUrl: iresImg,
     description:
       'IRES is my personal project that I and my team did when we were at school. This includes 5 mini system to a restaurant can use with all powerful process to enhance effective services on their own.',
-  },
-  {
-    id: 5,
-    name: 'Portfolio',
-    imgUrl: shayImg,
-    description:
-      'Porfolio is my personal project where I can manage all things I build for my own. It is funny and freedom',
   },
 ];
